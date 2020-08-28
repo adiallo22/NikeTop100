@@ -79,7 +79,7 @@ extension DetailsVC {
                          left: view.leftAnchor,
                          right: view.rightAnchor,
                          paddingTop: padding, paddingLeft: padding, paddingRight: padding)
-        thumbnail.dimension(height: 300)
+        thumbnail.dimension(height: view.frame.width - padding*4)
         //
         let stack : UIStackView = {
             let stack = UIStackView(arrangedSubviews: [name, genre, copyright])
