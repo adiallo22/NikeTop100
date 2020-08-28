@@ -12,6 +12,10 @@
 		C03C4EF724F950AA00475B4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03C4EF624F950AA00475B4D /* Assets.xcassets */; };
 		C03C4EFA24F950AA00475B4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C03C4EF824F950AA00475B4D /* LaunchScreen.storyboard */; };
 		C03C4F0824F951FC00475B4D /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C4F0724F951FC00475B4D /* Feed.swift */; };
+		C03C4F0A24F9528B00475B4D /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C4F0924F9528B00475B4D /* DataParser.swift */; };
+		C03C4F0C24F952A800475B4D /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C4F0B24F952A800475B4D /* Album.swift */; };
+		C03C4F0E24F952DC00475B4D /* AlbumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C4F0D24F952DC00475B4D /* AlbumData.swift */; };
+		C03C4F1024F952F800475B4D /* NeworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C4F0F24F952F800475B4D /* NeworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C03C4EF924F950AA00475B4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C03C4EFB24F950AA00475B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C03C4F0724F951FC00475B4D /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		C03C4F0924F9528B00475B4D /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		C03C4F0B24F952A800475B4D /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		C03C4F0D24F952DC00475B4D /* AlbumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumData.swift; sourceTree = "<group>"; };
+		C03C4F0F24F952F800475B4D /* NeworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		C03C4F0224F951C600475B4D /* API */ = {
 			isa = PBXGroup;
 			children = (
+				C03C4F0924F9528B00475B4D /* DataParser.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -101,6 +110,9 @@
 		C03C4F0524F951EA00475B4D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C03C4F0B24F952A800475B4D /* Album.swift */,
+				C03C4F0D24F952DC00475B4D /* AlbumData.swift */,
+				C03C4F0F24F952F800475B4D /* NeworkError.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,7 +196,11 @@
 			files = (
 				C03C4EEE24F950A400475B4D /* AppDelegate.swift in Sources */,
 				C03C4F0824F951FC00475B4D /* Feed.swift in Sources */,
+				C03C4F0A24F9528B00475B4D /* DataParser.swift in Sources */,
+				C03C4F1024F952F800475B4D /* NeworkError.swift in Sources */,
 				C03C4EF024F950A400475B4D /* SceneDelegate.swift in Sources */,
+				C03C4F0C24F952A800475B4D /* Album.swift in Sources */,
+				C03C4F0E24F952DC00475B4D /* AlbumData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
