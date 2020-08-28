@@ -23,6 +23,7 @@
 		C03C4F1A24F956BD00475B4D /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C4F1924F956BD00475B4D /* Details.swift */; };
 		C03C4F2A24F9588400475B4D /* NetworkingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C4F2924F9588400475B4D /* NetworkingTest.swift */; };
 		C03C4F2C24F9593900475B4D /* AlbumViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C4F2B24F9593900475B4D /* AlbumViewModelTest.swift */; };
+		C03C4F2E24F959A800475B4D /* ParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03C4F2D24F959A800475B4D /* ParserTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C03C4F2324F957E400475B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C03C4F2924F9588400475B4D /* NetworkingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTest.swift; sourceTree = "<group>"; };
 		C03C4F2B24F9593900475B4D /* AlbumViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModelTest.swift; sourceTree = "<group>"; };
+		C03C4F2D24F959A800475B4D /* ParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,14 +99,14 @@
 		C03C4EEC24F950A400475B4D /* NikeTop100 */ = {
 			isa = PBXGroup;
 			children = (
+				C03C4EED24F950A400475B4D /* AppDelegate.swift */,
+				C03C4EEF24F950A400475B4D /* SceneDelegate.swift */,
 				C03C4F0624F951F000475B4D /* Model */,
 				C03C4F0524F951EA00475B4D /* Views */,
 				C03C4F0424F951E100475B4D /* ViewModel */,
 				C03C4F0324F951C900475B4D /* Controllers */,
 				C03C4F0224F951C600475B4D /* API */,
 				C03C4F0124F951BD00475B4D /* Extensions */,
-				C03C4EED24F950A400475B4D /* AppDelegate.swift */,
-				C03C4EEF24F950A400475B4D /* SceneDelegate.swift */,
 				C03C4EF624F950AA00475B4D /* Assets.xcassets */,
 				C03C4EF824F950AA00475B4D /* LaunchScreen.storyboard */,
 				C03C4EFB24F950AA00475B4D /* Info.plist */,
@@ -169,6 +171,7 @@
 			children = (
 				C03C4F2924F9588400475B4D /* NetworkingTest.swift */,
 				C03C4F2B24F9593900475B4D /* AlbumViewModelTest.swift */,
+				C03C4F2D24F959A800475B4D /* ParserTest.swift */,
 				C03C4F2324F957E400475B4D /* Info.plist */,
 			);
 			path = NikeTop100Tests;
@@ -295,6 +298,7 @@
 			files = (
 				C03C4F2C24F9593900475B4D /* AlbumViewModelTest.swift in Sources */,
 				C03C4F2A24F9588400475B4D /* NetworkingTest.swift in Sources */,
+				C03C4F2E24F959A800475B4D /* ParserTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

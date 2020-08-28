@@ -32,19 +32,21 @@ class DetailsVC : UIViewController {
     
     private var name : UILabel = {
         let label = UILabel()
-        label.font = UIFont.boldSystemFont(ofSize: 20)
+        label.font = UIFont.boldSystemFont(ofSize: 18)
         label.numberOfLines = 0
         return label
     }()
     
     private var copyright : UILabel = {
         let label = UILabel()
+        label.font = UIFont.systemFont(ofSize: 16)
         label.numberOfLines = 0
         return label
     }()
     
     private var genre : UILabel = {
         let label = UILabel()
+        label.font = UIFont.systemFont(ofSize: 16)
         return label
     }()
     

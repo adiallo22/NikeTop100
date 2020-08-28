@@ -41,7 +41,6 @@ struct NetworkService {
     
     func downloadImage(withURL url : URL, completion: @escaping(UIImage?) -> Void) {
         if let cahcedIMG = cache.object(forKey: url.absoluteString as NSString) {
-            print("image is cached..")
             completion(cahcedIMG)
         } else {
             DispatchQueue.global(qos: .background).async {
@@ -49,7 +48,6 @@ struct NetworkService {
                 DispatchQueue.main.async {
                     guard let image = UIImage.init(data: data) else { return }
                     self.cache.setObject(image, forKey: url.absoluteString as NSString)
-                    print("image is not cached..")
                     completion(image)
                 }
             }
